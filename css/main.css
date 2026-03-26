@@ -6,11 +6,10 @@
 }
 .header {
   padding: 40px 10px;
-  background-color: rgb(248, 245, 245);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(135, 134, 134, 0.178);
 }
 .header-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -54,6 +53,12 @@
 .header-icon {
   font-size: 25px;
 }
+.nav-btn{
+  color: green;
+  font-size: 25px;
+  display: none;
+  text-decoration: none;
+}
 .menu {
   display: none;
 }
@@ -61,7 +66,7 @@
   display: block;
   width: 30px;
   height: 4px;
-  background-color: black;
+  background-color: rgb(69, 69, 69);
   border-radius: 5px;
   margin-bottom: 5px;
 }
@@ -76,10 +81,63 @@
 .menu.aktiv .bar:nth-child(3){
   transform:rotate(-45deg) translate(7px,-7px);
 }
+.section-hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.hero-container {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-box {
+  width: 500px;
+  margin-bottom: 50px;
+}
+.gr-box-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.gr-box-text {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.chiziq{
+  background-color: black;
+  width: 5px;
+  height: 143px;
+}
+.chiziq-2{
+  background-color: black;
+  width: 5px;
+  height: 125px;
+}
+.hero-info{
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1020px) {
+  .hero-container{
+    flex-direction: column;
+    max-width: 500px;
+  }
+}
 @media (max-width: 550px) {
   .menu {
     display: block;
   }
+  .nav-btn{
+    display: flex;
+  }
+  .header {
+  padding: 40px 10px;
+  box-shadow: 0 2px 10px rgba(164, 163, 163, 0.178);
+}
   .nav-list {
     display: none;
     position: absolute;
@@ -101,9 +159,44 @@
     display: flex;
   }
 }
+@media (max-width: 525px) {
+  .hero-img{
+    width: 350px;
+  }
+  .hero-box{
+    width: 350px;
+  }
+  .hero-container{
+    max-width: 350px;
+  }
+  .gr-box-title{
+    font-size: 25px;
+  }
+  .gr-box-text{
+    font-size: 14px;
+  }
+  .chiziq{
+    height: 130px;
+  }
+}
 @media (max-width: 400px) {
   .headet-logo {
     font-size: 20px;
     display: block;
+  }
+  .hero-box{
+    width: 330px;
+  }
+  .section-hero{
+    padding-top: 50px;
+  }
+  .chiziq{
+    height: 145px;
+  }
+  .chiziq-2{
+    height: 140px;
+  }
+  .hero-img{
+    width: 330px;
   }
 }
