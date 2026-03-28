@@ -22,18 +22,26 @@
       referrerpolicy="no-referrer"
     />
     <!-- icons link -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header-container">
-        <a href="#" class="headet-logo"
+        <a href="#section-hero" class="headet-logo"
           >Ma'mirjonov
           <h1 class="headet-logo">Muhammadaziz</h1></a
         >
         <ul class="nav-list" id="navList">
-          <li class="nav-item"><a href="#" class="nav-link">Haqimda</a></li>
+          <li class="nav-item">
+            <a href="#haqida" class="nav-link">Haqimda</a>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link">Loyihalar</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Tajriba</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Aloqa</a></li>
         </ul>
         <a href="#" class="nav-btn"><i class="fa-solid fa-phone"></i></a>
         <div class="menu" id="menu">
@@ -44,7 +52,7 @@
       </div>
     </header>
 
-    <section class="section-hero">
+    <section class="section-hero" id="section-hero">
       <div class="hero-container">
         <div class="hero-left">
           <div class="hero-box">
@@ -296,7 +304,7 @@
       </div>
     </section>
 
-    <section class="haqida">
+    <section class="haqida" id="haqida">
       <div class="haqida-container">
         <div class="haqida-top">
           <h1 class="ha-title">Assalomu alaykum</h1>
@@ -329,7 +337,7 @@
                 Design Banner & Social Media Design
               </li>
               <li>
-                <b><b>Frontend:</b><br/></b>
+                <b><b>Frontend:</b><br /></b>
                 HTML5, CSS3, SCSS JavaScript (ES6+) React JS Tools &
               </li>
               <li>
@@ -347,8 +355,13 @@
             <p class="h-box-text">
               Portfolio Website, English Test Web App, Landing Pages (HTML, CSS,
               JS)
-            </p><br>
-            <div><a href="#" class="h-box-link">Barchasin ko'rish <i class="fa-solid fa-arrow-right"></i></a></div>
+            </p>
+            <br />
+            <div>
+              <a href="#" class="h-box-link"
+                >Barchasin ko'rish <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
           </div>
           <div class="haqida-box">
             <h1 class="h-box-title">EDUCATION</h1>
@@ -375,6 +388,64 @@
       </div>
     </section>
 
+    <section class="section-projects">
+      <div class="projects-conatiner">
+        <div class="top-pro">
+          <h1 class="project-top-text">Loyihalar</h1>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <div class="project-gf">
+          <h1 class="gr-top-title">Grafik Dizayn Loyihalar</h1>
+          <!-- Swiper -->
+          <div class="swiper mySwiper car-pro">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/new-beg.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/b2-sl-1.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/int-cefr.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/b2-sl-2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/new-beg2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/int-cefr2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/int-cefr3.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/my-sl.jpg" alt=""></div>
+            </div><br><br>  
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- swipper 2-qator -->
+           <div class="swiper mySwiper car-pro">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/post1.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/Page1.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/post2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/page2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/post3.jpg" alt=""></div>
+            </div><br><br>  
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- swipper 3-qator -->
+           <div class="swiper mySwiper car-pro">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/1xitoy-sl.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/2xitoy-sl.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/3xitoy-sl.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/4xitoy-sl.jpg" alt=""></div>
+            </div><br><br>  
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- swipper 4-qator -->
+            <div class="swiper mySwiper car-pro">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/topik-sl-1.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/new-post.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/topik-sl-2.jpg" alt=""></div>
+              <div class="swiper-slide"><img class="pro-img" src="/all-img/project-imgs/grafik-dizayn-img/topik-sl-3.jpg" alt=""></div>
+            </div><br><br>  
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

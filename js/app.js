@@ -8,3 +8,12 @@ menu.addEventListener("click", () => {
 
   const container = document.querySelector(".carusel-container");
   container.innerHTML += container.innerHTML;
+
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
