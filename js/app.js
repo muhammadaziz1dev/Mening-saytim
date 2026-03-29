@@ -17,3 +17,11 @@ menu.addEventListener("click", () => {
         clickable: true,
       },
     });
+
+    var swiper = new Swiper(".twoSwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
